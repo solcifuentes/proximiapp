@@ -20,13 +20,16 @@ export const InputSearchSelector = ({ className, selectClassName, name, options,
   return (
     <div className={classes}>
       <div className="relative w-full">
+        <p className="pt-3 py-10">
+           Selecciona el tipus de negoci.
+        </p>
         <select
           name={name}
           onChange={(e) => onChange?.(e.target.value)}
           className={`
             min-h-[34px] w-full rounded-full border border-b-gray-300
             bg-transparent py-1 pl-4 pr-8
-            font-light text-white outline-0 backdrop-blur-md ${selectClassName}
+            font-light text-black outline-0 backdrop-blur-md ${selectClassName}
           `}
           style={{
             WebkitAppearance: 'none',
@@ -36,6 +39,9 @@ export const InputSearchSelector = ({ className, selectClassName, name, options,
         </select>
 
         <IconChevronDown className="absolute right-1 top-2 h-[1.1rem] text-gray-300"/>
+      </div>
+      <div>
+        
       </div>
     </div>
   )

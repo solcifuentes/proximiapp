@@ -25,15 +25,15 @@ export default function Carousel () {
     ]
 
     return (
-        <div className="overflow-hidden relative mb-10 pb-10 md:mx-10">
+        <div className="overflow-hidden relative my-10 pb-10 md:mx-10 h-3/4">
           <div
-            className={`flex transition ease-out duration-40 mb-10 pb-10 mx-auto`}
+            className={`flex transition ease-out duration-40 mb-80 pb-5 mx-auto`}
             style={{
               transform: `translateX(-${current * 100}%)`,
             }}
           >
             {slides.map((s) => {
-              return <img src={s} key={"img" + s}/>;
+              return <img src={s} key={"img" + s} />;
             })}
           </div>
     
