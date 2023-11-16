@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { InputSearchSelector } from "@/presentation/components/InputSearchSelector";
 import comercialTypes from "@/resources/repositories/district/json/comercialTypes.json";
+import Header from "@/presentation/components/Header";
 
 export const Dashboard = () => {
   const [selectedType, setSelectedType] = useState<string | undefined>(
@@ -16,6 +17,7 @@ export const Dashboard = () => {
 
   return (
     <main>
+      <Header />
       <InputSearchSelector
         name="type"
         options={comercialTypes}
