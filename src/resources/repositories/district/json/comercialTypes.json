@@ -1,0 +1,52 @@
+[
+  {
+    "Nom_Barri": "Hostafrancs",
+    "Nom_Grup_Activitat": "Manteniment, neteja i producci\u00f3",
+    "counts": 5
+  },
+  {
+    "Nom_Barri": "Horta",
+    "Nom_Grup_Activitat": "Quotidi\u00e0 no alimentari",
+    "counts": 54
+  },
+  {
+    "Nom_Barri": "Can Bar\u00f3",
+    "Nom_Grup_Activitat": "Finances i assegurances",
+    "counts": 1
+  },
+  {
+    "Nom_Barri": "Bar\u00f3 de Viver",
+    "Nom_Grup_Activitat": "Restaurants, bars i hotels (Incl\u00f2s hostals, pensions i fondes)",
+    "counts": 6
+  },
+  {
+    "Nom_Barri": "Hostafrancs",
+    "Nom_Grup_Activitat": "Automoci\u00f3",
+    "counts": 3
+  },
+  {
+    "Nom_Barri": "Horta",
+    "Nom_Grup_Activitat": "Reparacions (Electrodom\u00e8stics i autom\u00f2bils)",
+    "counts": 17
+  },
+  {
+    "Nom_Barri": "Pedralbes",
+    "Nom_Grup_Activitat": "Oci i cultura",
+    "counts": 5
+  },
+  {
+    "Nom_Barri": "Sant Antoni",
+    "Nom_Grup_Activitat": "Activitats immobili\u00e0ries",
+    "counts": 36
+  },
+  {
+    "Nom_Barri": "la Dreta de l'Eixample",
+    "Nom_Grup_Activitat": "Equipament personal",
+    "counts": 549
+  },
+  {
+    "Nom_Barri": "l'Antiga Esquerra de l'Eixample",
+    "Nom_Grup_Activitat": "Quotidi\u00e0 alimentari",
+    "counts": 313
+  }
+]
