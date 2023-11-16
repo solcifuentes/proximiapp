@@ -25,6 +25,7 @@ export const queryDistricts: QueryDistricts = async (params) => {
     ...mappedData,
     items: mappedData.items.map((district) => ({
       ...district,
+      name: district.nameBarrio,
     })) as District[],
   }
 }
