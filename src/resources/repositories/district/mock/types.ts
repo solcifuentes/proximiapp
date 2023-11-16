@@ -1,8 +1,10 @@
-import { RestPaginatedDataResponse } from '@/resources/repositories/common/rest/types.ts'
+import { RestPaginatedDataResponse } from "@/resources/repositories/common/rest/types.ts";
 
 export type DistrictRestSchema = {
-    id: number;
-    nameBarrio: string;
-}
+  neighbourhood: string;
+  activity: string;
+  counter: number;
+};
 
-export type QueryDistrictsRestResponse = RestPaginatedDataResponse<DistrictRestSchema>
+export type QueryDistrictsRestResponse =
+  RestPaginatedDataResponse<DistrictRestSchema>;

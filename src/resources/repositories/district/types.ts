@@ -1,18 +1,21 @@
-import { PaginatedData } from '@/resources/repositories/common/types.ts'
+import { PaginatedData } from "@/resources/repositories/common/types.ts";
 
 export type District = {
-    id: number;
-    name: string;
-}
+  neighbourhood: string;
+  activity: string;
+  counter: number;
+};
 
 export type QueryDistrictInput = {
-    page: number,
-}
+  page: number;
+};
 
-export type QueryDistrictOutput = PaginatedData<District>
+export type QueryDistrictOutput = PaginatedData<District>;
 
-export type QueryDistricts = (input: QueryDistrictInput) => Promise<QueryDistrictOutput>
+export type QueryDistricts = (
+  input: QueryDistrictInput
+) => Promise<QueryDistrictOutput>;
 
 export type DistrictRepository = () => {
-    queryDistricts: QueryDistricts,
-}
+  queryDistricts: QueryDistricts;
+};

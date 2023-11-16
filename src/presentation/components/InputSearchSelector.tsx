@@ -39,7 +39,7 @@ export const InputSearchSelector = ({
           }}
         >
           {options.map(({ value, label }) => (
-            <option key={value} value={value}>
+            <option key={Math.random()} value={value}>
               {label}
             </option>
           ))}
