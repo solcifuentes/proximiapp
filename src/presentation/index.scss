@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply min-h-full h-full font-sans;
+  }
+
+  body,
+  #root {
+    @apply min-h-full h-full;
+  }
+}
+
+@layer components {
+  .fluid-container {
+    @apply max-w-[1760px] mx-auto;
+  }
+
+  .px-def-border {
+    @apply px-4;
+  }
+}
