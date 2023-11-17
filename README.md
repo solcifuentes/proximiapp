@@ -1,27 +1,73 @@
-# React + TypeScript + Vite
+# Next2U
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li> 
+    <li><a href="#contact">Contact</a></li>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  </ol>
+</details>
 
-## Expanding the ESLint configuration
+<!-- ABOUT THE PROJECT -->
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## About the project
 
-- Configure the top-level `parserOptions` property like this:
+It is a web application that uses information extracted from the Cens d'activitats econòmiques on the ground floor of the city of Barcelona to provide recommendations to small entrepreneurs.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+It is a responsive application that allows the user to search by:
+- Type of activity
+- (Soon, search by neighborhood)
+  
+  The search will provide analysis of the situation of that business and the neighborhood to help the entrepreneur open their business.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Density of businesses of that type in the neighborhood
+- Average rental price
+- Population by age in the neighborhood
+- Distribution of that business in the different neighborhoods of Barcelona.
+
+<!-- DEMO -->
+
+
+
+## Built with
+
+- [![React][React.js]][React-url]
+- Typescript
+- HTML
+- CSS
+- Tailwind
+
+
+<!-- GETTING STARTED -->
+
+## Getting started
+
+Follow these few instructions to get the app working:
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/solcifuentes/proximiapp.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the app
+   ```js
+    npm run dev
+   ```
