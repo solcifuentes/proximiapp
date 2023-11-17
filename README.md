@@ -46,7 +46,7 @@ It is a responsive application that allows the user to search by:
 
 ## Built with
 
-- [![React][React.js]][React-url]
+- React
 - Typescript
 - HTML
 - CSS
