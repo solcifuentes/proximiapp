@@ -32,7 +32,13 @@ export const Dashboard = () => {
         onChange={handleTypeChange}
       />
 
-      {selectedType && <h2>{selectedType}</h2>}
+      {selectedType && <h1>{selectedType}</h1>}
+      {selectedType && (
+        <div>
+          <img src="" alt="graphic1" />
+          <img src="" alt="graphic2" />
+        </div>
+      )}
     </main>
   );
 };
